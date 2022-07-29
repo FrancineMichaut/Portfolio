@@ -5,7 +5,7 @@ body {
 	padding: 0 2%;
 	margin: 0;
 }
-
+/* ********************************Navbar*************************** */
 nav {
 	display: flex;
 	flex-wrap: wrap;
@@ -55,40 +55,36 @@ nav ul li :hover {
 	text-decoration: #000;
 	color: #000;
 }
-
+/* ***************************Fin Navbar***************************** */
 .page-content {
-	margin: 4%;
+	margin: 4%;                  /* section fin navbar -- début footer */
 }
 .page-content header {
-	margin-top: 5%;
+	margin-top: 5%;               /* titre et paragrahe intro */
 	max-width: 80%;
 }
-.page-content header h1 {
+.page-content header h1 {           /*titre*/
 	margin: 0;
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
 	font-size: 6vw;
 }
-.page-content header p {
+.page-content header p {                /* paragraphe intro */
 	line-height: 30px;
 	color: #818181;
 }
 
 
 
-#vidnebuleuse {
+#vidnebuleuse {                       /* vidéo */
 	max-width: 100%;
 	height: auto;
 	margin-top: 5%;
 	
 }
 
-/* #photohip .img{
-	width: 50%;
-	height: auto;
-} */
 
-.page-content .projects-section {
+.page-content .projects-section {             /* section des 4 carousels */
 	margin-top: 6%;
 }
 .page-content .projects-section h1 {
