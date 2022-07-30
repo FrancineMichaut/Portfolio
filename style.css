@@ -166,4 +166,9 @@ footer .colonne p:hover {
 	footer .column {
 		width: 80%;
 	}
+
+
+	#cv {
+		max-width: 100%;
+	}
 }
